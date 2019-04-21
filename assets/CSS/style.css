@@ -1,0 +1,81 @@
+
+body {
+    height: 100%;
+    background-color: black;
+    background-image: url(/assets/Images/gen3Pokemon.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    background-color: white;
+    background-image: linear-gradient(#e3766b,#ffcb3b);
+}
+
+h1{
+    font-family: 'Chivo', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+#intro {
+    font-family: 'Exo', sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+p.rating{
+    font-family: 'Exo', sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+button, button.btn{
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin: 5px 5px 10px 5px;
+    background-color: #2eefff;
+}
+
+button, button.btn{
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin: 5px 5px 10px 5px;
+    background-color: #2eefff;
+}
+
+button, button.btn:focus{
+    background-color: black;
+    color:  white;
+}
+
+input {
+    width: 200px;
+}
+
+
+#images img {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    display: block;
+    height: 200px;
+    width: auto;
+    border: 5px solid black;
+    -webkit-animation:Border 5s infinite alternate;
+}
+/*No idea what I'm doing here. */
+@-webkit-keyframes Border {
+    0% {border-color: crimson;}
+    20% {border-color: orange;}
+    40% {border-color: goldenrod;}
+    60% {border-color: green;}
+    80% {border-color: DarkBlue;}
+    100% {border-color: purple}
+}
