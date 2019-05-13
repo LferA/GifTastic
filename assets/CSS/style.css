@@ -2,7 +2,7 @@
 body {
     height: 100%;
     background-color: black;
-    background-image: url(./assets/Images/gen3Pokemon.jpg);
+    background-image: url(https://lfera.github.io/GifTastic.io/assets/Images/gen3Pokemon.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-repeat: no-repeat;
