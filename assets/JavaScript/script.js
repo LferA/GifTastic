@@ -28,7 +28,7 @@
   function createQuery(btnName){
     var APIkey = "sjSkM76b2OiPmLK990tnD8cPpuJzqYLx"
     var query = btnName 
-    queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + APIkey + "&q="+ query +"&limit=10&offset=0&rating=G&lang=en"
+    queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + APIkey + "&q="+ query +"&limit=10&offset=0&rating=R&lang=en"
     console.log("QueryURL is displayed below:");
     console.log(queryURL);
   }
